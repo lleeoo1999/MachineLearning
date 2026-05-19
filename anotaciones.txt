@@ -1,0 +1,8 @@
+PROMPTS utilizados para la lógica del modelo:
+
+1. "Estoy creando una aplicación en Streamlit para predecir precios de viviendas. Genera el código necesario para dividir la pantalla en dos columnas y colocar allí 'number_inputs' para las siguientes variables numéricas: longitude, latitude, housing_median_age, total_rooms, total_bedrooms, population, households y median_income. Además, agrega debajo un 'selectbox' para la variable categórica ocean_proximity."
+
+
+2. "Tengo un modelo de Random Forest ('modelo_rf.pkl') y un escalador ('scaler.pkl') guardados en una carpeta llamada 'modelos'. ¿Cómo puedo cargarlos en Streamlit de forma eficiente para que no se recarguen cada vez que el usuario interactúa con la página?"
+
+3. "Escribe el código para que, al presionar un botón llamado 'Calcular Predicción', se tomen los datos ingresados por el usuario, se escalen usando el scaler cargado, se pasen por el modelo de Random Forest y se muestre el precio estimado usando st.success()."
